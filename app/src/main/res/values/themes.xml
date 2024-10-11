@@ -5,5 +5,7 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.BuscandoPatitas" parent="Base.Theme.BuscandoPatitas" />
+    <style name="Theme.BuscandoPatitas" parent="Base.Theme.BuscandoPatitas">
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
 </resources>

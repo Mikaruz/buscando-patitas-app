@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.utp.buscandopatitas"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.utp.buscandopatitas"
