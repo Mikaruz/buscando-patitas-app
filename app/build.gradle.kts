@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.utp.buscandopatitas"
-    compileSdk = 34
+    compileSdk = 33
 
     defaultConfig {
         applicationId = "com.utp.buscandopatitas"
@@ -15,7 +15,6 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -28,6 +27,9 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding = true
     }
 }
 
