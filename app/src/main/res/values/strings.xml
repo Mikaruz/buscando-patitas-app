@@ -4,4 +4,7 @@
     <string name="intro_description">Descubre la alegría de adoptar y darle un hogar a una mascota que lo necesita.</string>
     <string name="intro_button_text">Empieza ahora</string>
     <string name="login_text">¿Ya tienes una cuenta? <b><font color="#834BF4">Inicia sesión</font></b></string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
 </resources>

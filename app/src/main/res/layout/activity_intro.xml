@@ -19,7 +19,6 @@
             android:paddingHorizontal="35dp"
             android:paddingVertical="60dp">
 
-
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="358dp"
@@ -33,10 +32,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:fontFamily="@font/lato_bold"
+                android:fontFamily="@font/poppins_bold"
                 android:text="@string/intro_title"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
+                android:lineSpacingExtra="0dp"
                 android:textSize="28sp" />
 
             <TextView
@@ -44,7 +44,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:fontFamily="@font/lato_light"
+                android:fontFamily="@font/poppins"
                 android:text="@string/intro_description"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
@@ -57,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="80dp"
                 android:background="@drawable/purple_button_bg"
-                android:fontFamily="@font/lato_bold"
+                android:fontFamily="@font/poppins_semibold"
                 android:text="@string/intro_button_text"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
@@ -67,11 +67,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:fontFamily="@font/lato_light"
+                android:fontFamily="@font/poppins_medium"
                 android:text="@string/login_text"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
-                android:textSize="16sp" />
+                android:textSize="14sp" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
